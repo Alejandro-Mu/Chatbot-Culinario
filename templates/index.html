@@ -1,0 +1,120 @@
+<!DOCTYPE html> <!--Le dice al navegador que esto es una pagina web con html.-->
+
+<html lang="es"> <!--Dice que la pagina esta en español.-->
+<head>
+	<meta charset="UTF-8"> <!--Le dice como esta codificado.-->
+	<title>Chatbot Culinario</title>
+	<style>
+		body {
+			font-family: sans-serif; <!--Tipo de letra.-->
+			background-color: #f1f1f1; <!--Color del fondo del chat.-->
+			padding: 20px; <!-- Tamaño del margen del texto-->
+		}
+		h1 {
+			text-align: center; <!--Centrar el texto-->
+		}
+		#chat {
+			background: white;
+			border-radius: 10px;
+			padding: 15px;
+			height: 400xp;
+			overflow-y: scroll; <!--Si el texto no cabe en pantalla, puedes desplazarte verticalmente.-->
+			margin.bottoms: 15px;
+			box-shadow: 0 0 10px;<!--Sombra que en el contorno.-->
+	rgba(0,0,0,0,1); <!--Modificar la opacidad de los colores.-->
+		}
+		.mensaje {
+			margin: 10px 0;
+			padding: 10px;
+			border-radius: 15px:
+			max-width: 80%; <!--Define el ancho màximo.-->
+		}
+		.usuario {
+			background-color: #e5e5ea;
+			align-self: flex-end; <!--Como se alinea respecto el eje vertical.-->
+			text-align: right; <!--Alinea el texto.-->
+		}
+		.bot {
+			background-color: #dcf8c6;
+			align-self: flex-start;
+			text-align: left;
+		}
+		#entrada { <!--Alinea todo los textos y los separa 10px.-->
+			display: flex;
+			gap: 10px;
+		}
+		input[type="text"]{ <!--Decora y ajusta el texto.-->
+			flex: 1;
+			padding: 10px;
+			border-radius: 10px;
+			border: 1px solid#ccc:
+		}
+		button {
+			padding: 0 10px;
+			text-decoration: none;
+			color: #4CAF5Q;
+			color: white;
+			font-weight: bold;
+		}
+		nav { <!--Agrupa enlaces en forma de menu.-->
+			margin-bottom; 15px;
+			text-align: center;
+		}
+		nav a { <!--Decora los enlaces/menu anterior.-->
+			margin: 0 10px;
+			text-decoration: none;
+			color: #4CAF5Q;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>	
+	<h1>Chatbot Culinario</h1>
+	
+	<nav>
+		<a href = "/">Chat</a>
+		<a href = "/formulario">Añadir receta</a> <!--Genera un enlace de una pagina a otra.-->
+	</nav>
+	
+	<div id="chat"></div>
+	
+	<div id="entrada">
+		<input type="text" id="mensaje" placeholder="Escribe tu mensaje...">
+	<button onclick="enviarMensaje()">Enviar</button> <!--Entrada y salida de mensaje.-->
+	</div>
+
+	<script> 
+		function enviarMensaje() { <!--Funciónque se ejectua cuando clicas enviar-->
+			const input = document.getElementById("mensaje");
+			const texto = input.value.trim(); <!--Quita espacios al inicio y al final-->
+		
+			if (texto === "") return;
+	
+			const chat = document,getElementById("chat"); <!--Obtiene el contenedor del chat--> 
+
+			const mensajeUsuario = document.createElement("div"); <!--Crea un elemento div con el mensaje										 del usuario--> 
+				mensajeUsuario.className = "mensaje usuario";
+				mensajeUsuario.innerText = texto;
+				chat.appendChild(mensajeUsuario); <!--Envia el texto del usuario al final del chat-->
+
+				fetch("/chat", { <!--Envia el mensaje al servidor Flask-->
+					method: "POST",
+					headers: {
+						"content-Type": "application/json"
+					}.
+					body: JSON.stringify({ mensaje: texto})
+					})
+					.then(res => res.json(}) <!--Convierte la respuesta en .json-->
+					.then(data => { <!--Muestra el mensaje del bot en pantalla-->
+						const mensajeBot = document.createElement("div");
+						mensajeBot.className = "mensaje bot";
+						mensajeBot.innerText = data.respuesta;
+						chat.appendChild(mensajeBot);
+						chat.scrollTop = chat.scrollHeight;
+					});
+
+					input.value = ""; <!--Genera un espacio libre para el siguiente mensaje-->
+				}
+	</script>
+</body>
+</html>
