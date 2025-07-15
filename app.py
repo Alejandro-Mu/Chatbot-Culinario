@@ -88,7 +88,62 @@ def enviar_mensaje():
        respuesta = "Perfecto, puedes añadir una nueva receta en el formulario"
        return jsonify({"respuesta": respuesta})
 
-    stopwords = {"quiero", "una", "un", "el", "la", "de", "y", "en", "para", "con", "que", "las", "los", "por", "al", "del"}
+    stopwords = {
+    # Artículos definidos e indefinidos
+    "el", "la", "los", "las", "un", "una", "unos", "unas",
+
+    # Preposiciones comunes
+    "a", "ante", "bajo", "cabe", "con", "contra", "de", "desde", "en", "entre",
+    "hacia", "hasta", "para", "por", "según", "sin", "so", "sobre", "tras",
+
+    # Pronombres personales y posesivos
+    "yo", "tú", "él", "ella", "ello", "nosotros", "vosotros", "ellos", "ellas",
+    "me", "te", "se", "nos", "os", "mi", "mis", "tu", "tus", "su", "sus",
+    "nuestro", "nuestra", "nuestros", "nuestras", "vos", "vosotras", "vosotros",
+
+    # Adverbios y otros términos comunes
+    "ahí", "aquí", "allí", "allá", "así", "bien", "casi", "cómo", "cuándo", "dónde",
+    "más", "menos", "muy", "nada", "nunca", "otra", "otras", "otro", "otros", "porqué",
+    "qué", "quién", "quienes", "sí", "también", "tan", "tanto", "ya",
+
+    # Verbos comunes auxiliares y funcionales
+    "ser", "estar", "haber", "tener", "hacer", "poder", "deber", "querer", "saber",
+
+    # Palabras funcionales varias y modismos que no aportan en búsqueda
+    "quiero", "conmigo", "contiene", "contener", "lleve", "llevar", "lleva",
+    "desde", "durante", "mediante", "excepto", "incluso", "salvo", "versus", "vía",
+
+    # Conjunciones y palabras de enlace
+    "y", "e", "o", "u", "pero", "sino", "aunque", "porque", "pues", "que",
+
+    # Otros comunes
+    "todo", "todos", "todas", "cada", "cual", "cuales", "cualquier", "cuanto",
+    "cuanta", "cuantas", "uno", "una", "unos", "unas", "algo", "algunos", "algunas",
+      "a", "acá", "ahí", "al", "algo", "algunas", "algunos", "allá", "allí", "ambos", "ante",
+    "antes", "aquel", "aquella", "aquellas", "aquello", "aquellos", "aqui", "aquí", "arriba",
+    "así", "atrás", "aun", "aunque", "bajo", "bastante", "bien", "cabe", "cada", "casi", "como",
+    "con", "conmigo", "conocer", "consideró", "contiene", "contener", "contra", "cual", "cuales",
+    "cualquier", "cuando", "cuanto", "cuanta", "cuantas", "de", "del", "demasiada", "demasiado",
+    "dentro", "desde", "donde", "dos", "durante", "el", "ella", "ellas", "ellos", "emplear",
+    "en", "encima", "entonces", "entre", "era", "erais", "eran", "eras", "eres", "es", "esa",
+    "esas", "ese", "eso", "esos", "esta", "estaba", "estado", "estáis", "estamos", "estan", "estar",
+    "estará", "estas", "este", "esto", "estos", "estoy", "estuve", "ex", "existe", "existen",
+    "explicó", "fue", "fueron", "fuese", "fui", "fuimos", "gran", "grande", "grandes", "ha",
+    "haber", "había", "habían", "habrá", "habrán", "hacer", "hace", "hacen", "hacerlo", "hasta",
+    "hay", "haya", "he", "hemos", "hice", "hicieron", "hizo", "hubo", "igual", "incluso",
+    "intentó", "ir", "jamás", "junto", "la", "lado", "las", "le", "les", "lo", "los", "luego",
+    "mal", "más", "me", "menos", "mi", "mía", "mías", "mientras", "mio", "míos", "mis", "misma",
+    "mismo", "mismos", "modo", "mucho", "muchos", "muy", "nada", "ni", "ninguna", "ninguno",
+    "no", "nos", "nosotras", "nosotros", "nuestra", "nuestras", "nuestro", "nuestros", "nunca",
+    "o", "os", "otra", "otras", "otro", "otros", "para", "pero", "poco", "por", "porque", "qué",
+    "que", "quien", "quienes", "sabe", "saber", "se", "sea", "sean", "según", "ser", "si", "sí",
+    "siempre", "sin", "sino", "sobre", "sois", "solamente", "somos", "son", "soy", "su", "sus",
+    "tal", "también", "tampoco", "tan", "tanto", "te", "tendré", "tendrá", "tenemos", "tener",
+    "tenido", "tercero", "ti", "tiene", "tienen", "todo", "todos", "tras", "tu", "tú", "tus",
+    "tuve", "tuvimos", "tuvo", "un", "una", "uno", "unos", "vosotras", "vosotros", "vuestra",
+    "vuestras", "vuestro", "vuestros", "y", "ya", "yo", "quiero", "lleve", "llevar", "lleva"
+}
+
 
     # Limpiar mensaje y eliminar signos de puntuación
     palabras_usuario = set(re.sub(r'[^\w\s]', '', mensaje_usuario).split())

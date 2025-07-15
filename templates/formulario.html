@@ -22,13 +22,14 @@
 		}
 
 		.container {
-			width: 80%;
-			max-width: 500px;
+			width: 90%;
+			max-width: 600px;
 			background: white;
 			margin: 30px auto;
-			padding: 20px;
+			padding: 25px 30px;
 			border-radius: 8px;
 			box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+			box-sizing: border-box;
 		}
 
 		label {
@@ -43,6 +44,7 @@
 			margin-top: 5px;
 			border: 1px solid #ccc;
 			border-radius: 4px;
+			border-sizing: border-box;
 		}
 
 		button {
@@ -81,8 +83,8 @@
 			<input type = "text" id = "titulo" name = "titulo" required>
 
 			<!--Ingredientes-->
-			<label for = "ingredientes" >Ingredientes:</label><br>
-			<textarea id = "ingredientes" name = "ingredientes" rows = "3" cols = "50" required></textarea><br>
+			<label for = "ingredientes" >Ingredientes:</label>
+			<textarea id = "ingredientes" name = "ingredientes" rows = "3" cols = "50" required></textarea>
 
 			<!--Preparación-->
 			<label for = "preparacion">Preaparación:</label>
