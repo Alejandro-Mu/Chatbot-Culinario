@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 
 app = Flask(__name__) #Crea la aplicación flask.
 
@@ -53,3 +53,43 @@ def guardar_receta():
 
 	#Redirigir al chat después de guardar
 	return redirect(url_for("home"))
+
+with open("recetas.json", "r", encoding="utf-8") as f:
+	recetas = json.load(f)
+
+@app.route("/enviar_mensaje", methods=["POST"])
+def enviar_mensaje():
+	#Obtenemos la información del mensaje del usuario.
+	data = request.get_json()
+
+	#Extraemos el texto del mensaje.
+	mensaje_usuario = data.get("mensaje", "").lower()
+
+	respuesta = ""
+
+	#Comprobamos que el mensaje contenga palabras clave para buscar receta.
+	if "receta" in mensaje_usuario or "cómo" in mensaje_usuario or "quiero" in mensaje_usuario:
+		encontrada = None
+
+		#Buscamos en la lista de recetas si coincide alguna palabra.
+		for receta in recetas:
+			if receta["titulo"].lower() in mensaje_usuario:
+				encontrada = receta
+				break
+		#Si coincide una receta.
+		if encontrada:
+			respuesta = (
+				f"¡Aquí tienes la receta de {encontrada['titulo']}!\n\n"
+				f"Ingredientes: {encontrada['ingredientes']}\n"
+				f"Preparación: {encontrada['preparacion']}"
+			)
+		else:
+			#Si no hay receta que coincida.
+			respuesta = "No tengo esa receta, pero puedes añadirla en el formulario."
+
+	else:
+		#Si el mensaje no tiene palabras clave
+		respuesta = "No entiendo bien, pero puedo buscarte recetas o añadir una nueva."
+
+		#Devolvemos la respuesta al documento.
+	return jsonify({"respuesta": respuesta})

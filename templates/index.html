@@ -99,44 +99,44 @@
 	
 	<div id="entrada">
 		<input type="text" id="mensaje" placeholder="Escribe tu mensaje...">
-	<button onclick="enviarMensaje()"
-		style= "color: black; font-weight: bold;">
-		Enviar
-	</button> <!--Entrada y salida de mensaje.-->
+	<button onclick="enviarMensaje()" style= "color: black; font-weight: bold;">Enviar</button> <!--Entrada y salida de mensaje.-->
 	
 	</div>
 
 	<script> 
-		function enviarMensaje() { <!--Funciónque se ejectua cuando clicas enviar-->
+		function enviarMensaje() {  //Funcion que se ejectua al enviar.
 			const input = document.getElementById("mensaje");
-			const texto = input.value.trim(); <!--Quita espacios al inicio y al final-->
+			const texto = input.value.trim(); //Quita espacios al inicio y al final.
 		
 			if (texto === "") return;
 	
-			const chat = document,getElementById("chat"); <!--Obtiene el contenedor del chat--> 
+			const chat = document.getElementById("chat"); //Obtiene el contenedor del chat. 
 
-			const mensajeUsuario = document.createElement("div"); <!--Crea un elemento div con el mensaje										 del usuario--> 
+			const mensajeUsuario = document.createElement("div"); //Crea un elemento div con el mensaje.										 del usuario--> 
 				mensajeUsuario.className = "mensaje usuario";
 				mensajeUsuario.innerText = texto;
-				chat.appendChild(mensajeUsuario); <!--Envia el texto del usuario al final del chat-->
+				chat.appendChild(mensajeUsuario); //Envia el texto del usuario al final del chat.
 
-				fetch("/chat", { <!--Envia el mensaje al servidor Flask-->
+				fetch("/enviar_mensaje", { 
 					method: "POST",
 					headers: {
-						"content-Type": "application/json"
-					}.
+						"Content-Type": "application/json"
+					},
 					body: JSON.stringify({ mensaje: texto})
 					})
-					.then(res => res.json(}) <!--Convierte la respuesta en .json-->
-					.then(data => { <!--Muestra el mensaje del bot en pantalla-->
+					.then(res => res.json()) //Convierte la respuesta en .json.
+					.then(data => {
 						const mensajeBot = document.createElement("div");
 						mensajeBot.className = "mensaje bot";
 						mensajeBot.innerText = data.respuesta;
 						chat.appendChild(mensajeBot);
 						chat.scrollTop = chat.scrollHeight;
+					})
+					.catch(error => {
+						console.error("Error en la comunicación:", error);
 					});
 
-					input.value = ""; <!--Genera un espacio libre para el siguiente mensaje-->
+					input.value = ""; //Genera espacio libre para el siguiente mensaje.
 				}
 	</script>
 		
