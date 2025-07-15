@@ -3,8 +3,19 @@
 <html lang="es"> <!--Dice que la pagina esta en español.-->
 <head>
 	<meta charset="UTF-8"> <!--Le dice como esta codificado.-->
-	<title>Chatbot Culinario</title>
-	<style>
+	<header>Chatbot Culinario</header>
+	<style> 
+		header {
+        		background-color: #4CAF50; 
+        		color: white;             
+        		text-align: center;        
+        		padding: 10px;             
+        		font-size: 24px;           
+        		font-weight: bold;         
+        		border-radius: 5px;        
+        		margin-bottom: 15px;       
+    		}
+
 		body {
 			font-family: sans-serif; <!--Tipo de letra.-->
 			background-color: #f1f1f1; <!--Color del fondo del chat.-->
@@ -69,18 +80,30 @@
 	</style>
 </head>
 <body>	
-	<h1>Chatbot Culinario</h1>
 	
 	<nav>
-		<a href = "/">Chat</a>
-		<a href = "/formulario">Añadir receta</a> <!--Genera un enlace de una pagina a otra.-->
+		<!--Generar un enlace de una pagina a otra-->
+		<a href="/formulario"
+                        style= "display: block;
+                                text-align: center;
+                                margin: 10px;
+                                color: green;
+                                text-decoration: none;
+                                font-weight: bold;">
+                                Añadir nueva receta
+                </a>
+
 	</nav>
 	
 	<div id="chat"></div>
 	
 	<div id="entrada">
 		<input type="text" id="mensaje" placeholder="Escribe tu mensaje...">
-	<button onclick="enviarMensaje()">Enviar</button> <!--Entrada y salida de mensaje.-->
+	<button onclick="enviarMensaje()"
+		style= "color: black; font-weight: bold;">
+		Enviar
+	</button> <!--Entrada y salida de mensaje.-->
+	
 	</div>
 
 	<script> 
@@ -116,5 +139,6 @@
 					input.value = ""; <!--Genera un espacio libre para el siguiente mensaje-->
 				}
 	</script>
+		
 </body>
 </html>

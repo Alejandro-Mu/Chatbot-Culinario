@@ -75,26 +75,36 @@
 	<header>Formulario de Recetas</header>
 
 	<div class = "container">
-		<form action = "/guardar receta" method = "POST">
+		<form action = "/guardar_receta" method = "POST">
 			<!--Título de la receta-->
 			<label for = "titulo">Titulo de la receta:</label>
 			<input type = "text" id = "titulo" name = "titulo" required>
 
 			<!--Ingredientes-->
-			<label for = "ingredientes>Ingredientes (separados por comas):</label>
-			<textara id = "ingredientes" name = "ingredientes" rows = "3" required></textarea>
+			<label for = "ingredientes" >Ingredientes:</label><br>
+			<textarea id = "ingredientes" name = "ingredientes" rows = "3" cols = "50" required></textarea><br>
 
 			<!--Preparación-->
 			<label for = "preparacion">Preaparación:</label>
-			<textarea id = "preparación" name = "preparacion" rows = "5" required></textarea>
+			<textarea id = "preparacion" name = "preparacion" rows = "5" required></textarea>
 
 			<!--Botón para enviar-->
 			<button type = "sumbit">Guardar receta</button>
 		</form>
 		
 		<!--Enlace para volver al chat-->
-		<a href = "/" class = "volver">Volver al Chat</a>
+		<a href="/" 
+		   	style="display:block; 
+         		       text-align:center; 
+          		       margin:10px; 
+			       color:green; 
+          		       text-decoration:none; 
+          	               font-weight:bold;">
+    			       Volver al Chat
+		</a>
+
 	</div>
 </body>
 <html>
+
 
