@@ -96,7 +96,7 @@ def enviar_mensaje():
         titulo = receta.get("titulo", "").lower()
 
         # Si alguna palabra del usuario está en el título o ingredientes
-        if any(palabra in titulo or palabra for palabra in palabras_usuario):
+        if any(palabra in titulo for palabra in palabras_usuario):
             recetas_encontradas.append(receta)
 
     if recetas_encontradas:
