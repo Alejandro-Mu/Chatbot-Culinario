@@ -5,7 +5,8 @@ import re
 
 app = Flask(__name__)  # Crea la aplicación Flask.
 
-RUTA_RECETAS = "recetas.json"  # Ruta donde se guardan las recetas.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RUTA_RECETAS = os.path.join(BASE_DIR, "recetas.json")  # Ruta donde se guardan las recetas.
 
 # Función para cargar las recetas existentes
 def cargar_recetas():
@@ -111,4 +112,6 @@ def enviar_mensaje():
     return jsonify({"respuesta": respuesta})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+	port = int(os.environ.get("PORT", 5000))
+	app.run(host="0.0.0.0", port=port)
+    
