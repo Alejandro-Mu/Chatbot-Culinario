@@ -94,10 +94,9 @@ def enviar_mensaje():
     recetas_encontradas = []
     for receta in cargar_recetas():
         titulo = receta.get("titulo", "").lower()
-        ingredientes = receta.get("ingredientes", "").lower()
 
         # Si alguna palabra del usuario está en el título o ingredientes
-        if any(palabra in titulo or palabra in ingredientes for palabra in palabras_usuario):
+        if any(palabra in titulo or palabra for palabra in palabras_usuario):
             recetas_encontradas.append(receta)
 
     if recetas_encontradas:
