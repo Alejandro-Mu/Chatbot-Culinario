@@ -50,16 +50,6 @@
     "preparacion": "Tritura las galletas y mézclalas con mantequilla derretida. Cubre el fondo de un molde con esta mezcla y presiona bien. Bate el queso crema con azúcar, nata y huevos hasta obtener una masa homogénea. Vierte sobre la base de galletas y hornea a 180°C durante 45 minutos. Deja enfriar antes de desmoldar."
   },
   {
-    "titulo": "Lasaña de carne",
-    "ingredientes": "500 g de carne picada, 1 cebolla, 2 dientes de ajo, 400 g de tomate triturado, 12 láminas de lasaña, 200 g de queso rallado, 500 ml de bechamel, sal, pimienta y aceite de oliva",
-    "preparacion": "Sofríe la cebolla y el ajo picados, añade la carne y cocina hasta dorar. Incorpora el tomate, sal y pimienta, y cocina 15 min. En una fuente, alterna capas de carne, láminas de lasaña y bechamel. Cubre con queso rallado y hornea a 180 °C durante 30 min."
-  },
-  {
-    "titulo": "Ensalada César",
-    "ingredientes": "1 lechuga romana, 100 g de crutones, 50 g de queso parmesano, 150 g de pechuga de pollo a la plancha, 3 cucharadas de mayonesa, 1 diente de ajo, 1 cucharadita de mostaza, jugo de 1/2 limón",
-    "preparacion": "Corta la lechuga y el pollo en tiras. Mezcla mayonesa, ajo triturado, mostaza y jugo de limón para la salsa. Coloca la lechuga en un bol, añade pollo, crutones, parmesano y mezcla con la salsa antes de servir."
-  },
-  {
     "titulo": "Sopa de verduras",
     "ingredientes": "1 zanahoria, 1 puerro, 1 calabacín, 1 patata, 1 litro de caldo de verduras, sal, pimienta y aceite de oliva",
     "preparacion": "Pica todas las verduras en trozos. Sofríe ligeramente el puerro con aceite, añade el resto de verduras y el caldo. Cocina 20-25 min hasta que estén tiernas. Tritura para una crema o sirve con trozos enteros."
@@ -68,11 +58,6 @@
     "titulo": "Tarta de manzana",
     "ingredientes": "1 lámina de masa quebrada, 3 manzanas, 2 cucharadas de mermelada de albaricoque, 2 cucharadas de azúcar, 1 cucharadita de canela",
     "preparacion": "Coloca la masa en un molde, pincha con un tenedor. Pela y corta las manzanas en láminas y colócalas encima. Espolvorea azúcar y canela. Hornea a 180 °C durante 30-35 min. Pinta con mermelada caliente al sacar."
-  },
-  {
-    "titulo": "Pollo al curry",
-    "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 200 ml de leche de coco, 2 cucharadas de curry en polvo, sal, pimienta y aceite de oliva",
-    "preparacion": "Corta el pollo en dados y sofríe en aceite. Retira y en la misma sartén sofríe cebolla picada. Añade curry, leche de coco y mezcla. Incorpora el pollo y cocina 10 min hasta que espese. Sirve con arroz."
   },
   {
     "titulo": "Crema de calabaza",
@@ -120,16 +105,6 @@
     "preparacion": "Haz una bechamel con mantequilla, harina y leche. Añade jamón picado, sal y nuez moscada, cocina hasta espesar. Deja enfriar, forma croquetas, pásalas por huevo y pan rallado y fríe en aceite caliente."
   },
   {
-    "titulo": "Tarta de queso al horno",
-    "ingredientes": "500 g de queso crema, 200 ml de nata, 3 huevos, 150 g de azúcar, 1 cucharada de harina, mermelada al gusto",
-    "preparacion": "Bate queso, nata, huevos, azúcar y harina. Vierte en un molde y hornea a 180 °C durante 45-50 min. Deja enfriar y cubre con mermelada."
-  },
-  {
-    "titulo": "Albóndigas en salsa",
-    "ingredientes": "500 g de carne picada mixta, 1 huevo, 2 dientes de ajo, perejil, pan rallado, sal, pimienta, harina, 1 cebolla, 200 ml de tomate triturado, caldo de carne",
-    "preparacion": "Mezcla la carne con huevo, ajo picado, perejil, sal, pimienta y pan rallado. Forma albóndigas, pásalas por harina y fríelas. Sofríe cebolla, añade el tomate, rehoga y vierte caldo. Incorpora las albóndigas y cocina 20 min."
-  },
-  {
     "titulo": "Tortilla de calabacín",
     "ingredientes": "2 calabacines medianos, 1 cebolla, 4 huevos, sal, aceite de oliva",
     "preparacion": "Corta calabacines y cebolla en dados. Sofríelos a fuego medio hasta que estén tiernos. Bate los huevos, mezcla con las verduras, ajusta de sal y cuaja la tortilla en una sartén."
@@ -160,11 +135,6 @@
     "preparacion": "Cuece los espaguetis. Saltea panceta en su grasa. Mezcla yemas con parmesano. Añade la pasta caliente, la panceta y mezcla rápido fuera del fuego para que se forme una crema."
   },
   {
-    "titulo": "Tortilla de espinacas",
-    "ingredientes": "200 g de espinacas frescas, 4 huevos, 1 diente de ajo, aceite de oliva, sal",
-    "preparacion": "Saltea las espinacas con ajo picado. Bate los huevos, añade espinacas, sazona y cuaja la tortilla en sartén caliente por ambos lados."
-  },
-  {
     "titulo": "Pisto manchego",
     "ingredientes": "1 calabacín, 1 berenjena, 1 pimiento rojo, 1 pimiento verde, 1 cebolla, 2 tomates, aceite, sal",
     "preparacion": "Corta todas las verduras en dados y sofríe cada una por separado. Mézclalas con el tomate pelado y picado y cocina a fuego lento 30 min."
@@ -175,44 +145,14 @@
     "preparacion": "Haz caramelo con azúcar y un poco de agua y vierte en un molde. Bate leche, huevos y azúcar, vierte sobre el caramelo y hornea al baño maría 45 min a 180 °C."
   },
   {
-    "titulo": "Croquetas de jamón",
-    "ingredientes": "100 g de jamón serrano, 50 g de mantequilla, 3 cucharadas de harina, 500 ml de leche, nuez moscada, sal, pan rallado, 2 huevos, aceite para freír",
-    "preparacion": "Haz una bechamel con mantequilla, harina y leche. Añade el jamón picado, sal y nuez moscada. Enfría la masa, forma croquetas, pásalas por huevo y pan rallado y fríe hasta dorar."
-  },
-  {
     "titulo": "Salmorejo cordobés",
     "ingredientes": "1 kg de tomates maduros, 200 g de pan, 1 diente de ajo, 100 ml de aceite de oliva, sal, huevo duro y jamón picado para decorar",
     "preparacion": "Tritura tomates, pan, ajo y sal hasta obtener una crema. Emulsiona con el aceite poco a poco. Sirve frío con huevo duro y jamón encima."
   },
   {
-    "titulo": "Ensalada de garbanzos",
-    "ingredientes": "400 g de garbanzos cocidos, 1 pimiento rojo, 1 cebolla morada, 1 pepino, aceitunas, aceite de oliva, vinagre, sal, perejil",
-    "preparacion": "Mezcla los garbanzos con las verduras picadas. Aliña con aceite, vinagre, sal y espolvorea perejil picado. Deja enfriar antes de servir."
-  },
-  {
     "titulo": "Revuelto de setas",
     "ingredientes": "200 g de setas variadas, 3 huevos, 2 dientes de ajo, sal, pimienta, aceite de oliva",
     "preparacion": "Sofríe los ajos laminados, añade las setas troceadas y cocina hasta que suelten el agua. Agrega los huevos batidos, sal y pimienta, removiendo hasta cuajar al gusto."
-  },
-  {
-    "titulo": "Pollo al curry",
-    "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 200 ml de leche de coco, 1 cucharada de curry en polvo, aceite de oliva, sal, pimienta",
-    "preparacion": "Sofríe la cebolla picada, añade el pollo en dados, sal y pimienta. Espolvorea el curry, mezcla y vierte la leche de coco. Cocina a fuego medio 15 min hasta espesar."
-  },
-  {
-    "titulo": "Tortilla de Patatas",
-    "ingredientes": "4 patatas medianas, 6 huevos, 1 cebolla, aceite de oliva, sal",
-    "preparacion": "Pela y corta las patatas y la cebolla en rodajas finas. Fríelas en abundante aceite hasta que estén tiernas. Bate los huevos con sal, mezcla con las patatas y cebolla escurridas. Cocina la mezcla en una sartén hasta que cuaje por ambos lados."
-  },
-  {
-    "titulo": "Espaguetis Carbonara",
-    "ingredientes": "400 g de espaguetis, 150 g de panceta, 3 huevos, 50 g de queso parmesano rallado, pimienta negra, sal",
-    "preparacion": "Cuece la pasta al dente. Fríe la panceta hasta dorar. Bate los huevos con parmesano y pimienta. Mezcla la pasta caliente con la panceta y añade la mezcla de huevo fuera del fuego para que no se cocine demasiado."
-  },
-  {
-    "titulo": "Pollo al Curry",
-    "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 2 dientes de ajo, 200 ml de leche de coco, 2 cucharadas de curry en polvo, aceite, sal",
-    "preparacion": "Sofríe cebolla y ajo picados. Añade el pollo en trozos y cocina hasta dorar. Incorpora el curry, la leche de coco y cocina a fuego medio 15 minutos. Salpimienta al gusto."
   },
   {
     "titulo": "Guacamole",
