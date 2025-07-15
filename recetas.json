@@ -23,7 +23,7 @@
     "titulo": "Paella Valenciana",
     "ingredientes": "Arroz, pollo, conejo, judías verdes, garrofón, tomate, aceite, azafrán, agua, sal",
     "preparacion": "En una paellera o sartén amplia, calienta aceite y sofríe el pollo y el conejo troceados hasta que estén dorados. Añade las judías verdes cortadas y sofríe unos minutos más. Incorpora el tomate rallado y cocina hasta que reduzca. Añade el arroz y mezcla bien para que se impregne de los sabores. Agrega el agua caliente con el azafrán disuelto y sal al gusto. Cocina a fuego medio-alto durante unos 10 minutos y luego baja el fuego y cocina otros 10-15 minutos hasta que el arroz esté tierno y el líquido se haya absorbido. Deja reposar unos minutos antes de servir."
-  }
+  },
   {
     "titulo": "Lasaña de Carne",
     "ingredientes": "Láminas de lasaña, carne picada, cebolla, ajo, tomate triturado, bechamel, queso rallado, aceite, sal, pimienta",
@@ -48,7 +48,7 @@
     "titulo": "Tarta de Queso al Horno",
     "ingredientes": "Queso crema, huevos, azúcar, nata, galletas, mantequilla",
     "preparacion": "Tritura las galletas y mézclalas con mantequilla derretida. Cubre el fondo de un molde con esta mezcla y presiona bien. Bate el queso crema con azúcar, nata y huevos hasta obtener una masa homogénea. Vierte sobre la base de galletas y hornea a 180°C durante 45 minutos. Deja enfriar antes de desmoldar."
-  }
+  },
   {
     "titulo": "Lasaña de carne",
     "ingredientes": "500 g de carne picada, 1 cebolla, 2 dientes de ajo, 400 g de tomate triturado, 12 láminas de lasaña, 200 g de queso rallado, 500 ml de bechamel, sal, pimienta y aceite de oliva",
@@ -73,7 +73,7 @@
     "titulo": "Pollo al curry",
     "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 200 ml de leche de coco, 2 cucharadas de curry en polvo, sal, pimienta y aceite de oliva",
     "preparacion": "Corta el pollo en dados y sofríe en aceite. Retira y en la misma sartén sofríe cebolla picada. Añade curry, leche de coco y mezcla. Incorpora el pollo y cocina 10 min hasta que espese. Sirve con arroz."
-  }
+  },
   {
     "titulo": "Crema de calabaza",
     "ingredientes": "500 g de calabaza, 1 cebolla, 1 zanahoria, 700 ml de caldo de verduras, 2 cucharadas de nata, sal, pimienta y aceite de oliva",
@@ -98,7 +98,7 @@
     "titulo": "Bizcocho de yogur",
     "ingredientes": "1 yogur natural, 3 huevos, 2 medidas de yogur de azúcar, 3 de harina, 1 de aceite, 1 sobre de levadura, ralladura de 1 limón",
     "preparacion": "Mezcla todos los ingredientes en un bol hasta obtener una masa homogénea. Vierte en un molde engrasado y hornea a 180 °C durante 35-40 min."
-  }
+  },
   {
     "titulo": "Lentejas estofadas",
     "ingredientes": "300 g de lentejas, 1 zanahoria, 1 cebolla, 1 pimiento verde, 1 tomate, 1 hoja de laurel, 700 ml de agua o caldo, sal y aceite de oliva",
@@ -123,7 +123,7 @@
     "titulo": "Tarta de queso al horno",
     "ingredientes": "500 g de queso crema, 200 ml de nata, 3 huevos, 150 g de azúcar, 1 cucharada de harina, mermelada al gusto",
     "preparacion": "Bate queso, nata, huevos, azúcar y harina. Vierte en un molde y hornea a 180 °C durante 45-50 min. Deja enfriar y cubre con mermelada."
-  }
+  },
   {
     "titulo": "Albóndigas en salsa",
     "ingredientes": "500 g de carne picada mixta, 1 huevo, 2 dientes de ajo, perejil, pan rallado, sal, pimienta, harina, 1 cebolla, 200 ml de tomate triturado, caldo de carne",
@@ -148,7 +148,7 @@
     "titulo": "Macedonia de frutas",
     "ingredientes": "2 manzanas, 2 naranjas, 1 plátano, 1 kiwi, 1 melocotón, zumo de naranja natural, azúcar (opcional), hojas de menta",
     "preparacion": "Corta todas las frutas en dados, mezcla en un bol, añade el zumo de naranja y azúcar si deseas. Deja enfriar en la nevera y decora con menta al servir."
-  }
+  },
   {
     "titulo": "Pollo al ajillo",
     "ingredientes": "1 kg de pollo troceado, 6 dientes de ajo, 100 ml de vino blanco, aceite de oliva, sal, perejil",
@@ -173,7 +173,7 @@
     "titulo": "Flan casero",
     "ingredientes": "500 ml de leche, 4 huevos, 120 g de azúcar, 100 g de azúcar para caramelo",
     "preparacion": "Haz caramelo con azúcar y un poco de agua y vierte en un molde. Bate leche, huevos y azúcar, vierte sobre el caramelo y hornea al baño maría 45 min a 180 °C."
-  }
+  },
   {
     "titulo": "Croquetas de jamón",
     "ingredientes": "100 g de jamón serrano, 50 g de mantequilla, 3 cucharadas de harina, 500 ml de leche, nuez moscada, sal, pan rallado, 2 huevos, aceite para freír",
@@ -198,7 +198,7 @@
     "titulo": "Pollo al curry",
     "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 200 ml de leche de coco, 1 cucharada de curry en polvo, aceite de oliva, sal, pimienta",
     "preparacion": "Sofríe la cebolla picada, añade el pollo en dados, sal y pimienta. Espolvorea el curry, mezcla y vierte la leche de coco. Cocina a fuego medio 15 min hasta espesar."
-  }
+  },
   {
     "titulo": "Tortilla de Patatas",
     "ingredientes": "4 patatas medianas, 6 huevos, 1 cebolla, aceite de oliva, sal",
@@ -248,5 +248,5 @@
     "titulo": "Gazpacho de Sandía",
     "ingredientes": "500 g de sandía, 2 tomates, 1 pepino, 1 pimiento verde, 1 diente de ajo, aceite de oliva, vinagre, sal",
     "preparacion": "Tritura todos los ingredientes hasta obtener una crema suave. Enfría en la nevera y sirve frío."
-  }
+  },
 ]
