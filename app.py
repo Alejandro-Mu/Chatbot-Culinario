@@ -88,16 +88,19 @@ def enviar_mensaje():
        respuesta = "Perfecto, puedes añadir una nueva receta en el formulario"
        return jsonify({"respuesta": respuesta})
 
-    # Buscar recetas por palabras clave y coincidencias parciales en título o ingredientes
+    stopwords = {"quiero", "una", "un", "el", "la", "de", "y", "en", "para", "con", "que", "las", "los", "por", "al", "del"}
+
+    # Limpiar mensaje y eliminar signos de puntuación
     palabras_usuario = set(re.sub(r'[^\w\s]', '', mensaje_usuario).split())
+    palabras_usuario = {p for p in palabras_usuario if p not in stopwords}
 
     recetas_encontradas = []
     for receta in cargar_recetas():
         titulo = receta.get("titulo", "").lower()
 
-        # Si alguna palabra del usuario está en el título o ingredientes
-        if any(palabra in titulo for palabra in palabras_usuario):
-            recetas_encontradas.append(receta)
+        # Buscar que todas las palabras importantes estén en el título
+        if all(palabra in titulo for palabra in palabras_usuario):
+            recetas_encontradas.append(receta) 
 
     if recetas_encontradas:
         respuesta = ""
