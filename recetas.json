@@ -1,22 +1,252 @@
 [
-    {
-        "titulo": "Patatas Fritas",
-        "ingredientes": "Patatas, Aceite",
-        "preparacion": "1. Pelas las patatas\r\n2. Calientas el aceite\r\n3. Metes las patatas en aceite"
-    },
-    {
-        "titulo": "Patatas Fritas",
-        "ingredientes": "Patatas, Aciete",
-        "preparacion": "1. Pelas patatas\r\n2. Calientas aceite\r\n3. Patatas al aceiete"
-    },
-    {
-        "titulo": "Aguacate",
-        "ingredientes": "Coca cola",
-        "preparacion": "aucamfenfjfjinfiwnfwnf"
-    },
-    {
-        "titulo": "rngweniewfbewnifjwe",
-        "ingredientes": "fjweniqenfqenfiqenifuqeiuf",
-        "preparacion": "jqenfjqefhqefqebfhuqe"
-    }
+  {
+    "titulo": "Ensalada César",
+    "ingredientes": "Lechuga romana, pollo a la plancha, queso parmesano, crutones, salsa César",
+    "preparacion": "Lava la lechuga romana y córtala en trozos medianos. Cocina la pechuga de pollo en una sartén con un poco de aceite hasta que esté dorada y bien cocida. Corta el pollo en tiras. En un bol grande, mezcla la lechuga, el pollo, los crutones y el queso parmesano rallado. Añade la salsa César al gusto y mezcla suavemente para que se impregnen todos los ingredientes. Sirve inmediatamente."
+  },
+  {
+    "titulo": "Pasta al Pesto",
+    "ingredientes": "Pasta, albahaca fresca, piñones, ajo, queso parmesano, aceite de oliva",
+    "preparacion": "Cuece la pasta en agua con sal según las indicaciones del paquete hasta que esté al dente. Mientras tanto, en un procesador de alimentos, tritura las hojas de albahaca fresca, los piñones, el ajo, y el queso parmesano rallado. Añade aceite de oliva poco a poco hasta obtener una salsa cremosa. Escurre la pasta y mezcla con la salsa pesto. Sirve caliente."
+  },
+  {
+    "titulo": "Tortilla de Patatas",
+    "ingredientes": "Huevos, patatas, cebolla, aceite de oliva, sal",
+    "preparacion": "Pela y corta las patatas en rodajas finas y la cebolla en juliana. Calienta abundante aceite en una sartén y fríe las patatas y la cebolla a fuego medio-bajo hasta que estén tiernas, removiendo ocasionalmente. En un bol grande, bate los huevos con una pizca de sal. Escurre las patatas y cebolla para eliminar el exceso de aceite y añádelas al bol con los huevos. Mezcla bien. Vierte la mezcla en una sartén con un poco de aceite caliente y cocina a fuego medio. Cuando los bordes estén cuajados, dale la vuelta con ayuda de un plato y cocina el otro lado hasta que esté dorado y completamente cuajado. Sirve caliente o templado."
+  },
+  {
+    "titulo": "Gazpacho Andaluz",
+    "ingredientes": "Tomates maduros, pepino, pimiento verde, ajo, pan, aceite de oliva, vinagre, sal",
+    "preparacion": "Lava y trocea los tomates maduros, el pepino pelado y el pimiento verde. Pela el ajo y retira el germen para evitar que repita. Remoja un trozo pequeño de pan en agua hasta que esté blando. Coloca todos los ingredientes en una batidora: tomates, pepino, pimiento, ajo, pan remojado, un chorro de aceite de oliva, un poco de vinagre y sal al gusto. Tritura hasta obtener una mezcla homogénea. Pasa la mezcla por un colador fino para eliminar restos y obtener una textura suave. Refrigera al menos una hora antes de servir bien frío."
+  },
+  {
+    "titulo": "Paella Valenciana",
+    "ingredientes": "Arroz, pollo, conejo, judías verdes, garrofón, tomate, aceite, azafrán, agua, sal",
+    "preparacion": "En una paellera o sartén amplia, calienta aceite y sofríe el pollo y el conejo troceados hasta que estén dorados. Añade las judías verdes cortadas y sofríe unos minutos más. Incorpora el tomate rallado y cocina hasta que reduzca. Añade el arroz y mezcla bien para que se impregne de los sabores. Agrega el agua caliente con el azafrán disuelto y sal al gusto. Cocina a fuego medio-alto durante unos 10 minutos y luego baja el fuego y cocina otros 10-15 minutos hasta que el arroz esté tierno y el líquido se haya absorbido. Deja reposar unos minutos antes de servir."
+  }
+  {
+    "titulo": "Lasaña de Carne",
+    "ingredientes": "Láminas de lasaña, carne picada, cebolla, ajo, tomate triturado, bechamel, queso rallado, aceite, sal, pimienta",
+    "preparacion": "Pica la cebolla y el ajo y sofríelos en una sartén con aceite hasta que estén dorados. Añade la carne picada y cocina hasta que pierda el color rosado. Agrega el tomate triturado, sal y pimienta, y deja cocinar a fuego medio 15 minutos. En una fuente para horno, coloca una capa de bechamel, luego una capa de láminas de lasaña, después carne, y repite hasta llenar. Termina con bechamel y queso rallado. Hornea a 180°C durante 30 minutos o hasta que el queso esté gratinado."
+  },
+  {
+    "titulo": "Crema de Calabaza",
+    "ingredientes": "Calabaza, cebolla, zanahoria, patata, caldo de verduras, aceite de oliva, sal",
+    "preparacion": "Pela y trocea la calabaza, la cebolla, la zanahoria y la patata. Sofríe la cebolla en aceite de oliva durante 5 minutos. Añade el resto de las verduras y rehoga unos minutos. Vierte caldo de verduras hasta cubrir y cocina a fuego medio durante 20 minutos. Tritura con una batidora hasta que quede una crema suave. Sirve caliente con un chorrito de aceite."
+  },
+  {
+    "titulo": "Pollo al Curry",
+    "ingredientes": "Pechugas de pollo, cebolla, ajo, leche de coco, curry en polvo, aceite, sal",
+    "preparacion": "Corta el pollo en trozos pequeños. Sofríe en una sartén con aceite la cebolla y el ajo picados hasta que estén dorados. Añade el pollo y cocínalo hasta que se dore. Incorpora el curry en polvo y mezcla bien. Vierte la leche de coco y cocina a fuego medio durante 15 minutos hasta que la salsa espese. Sirve con arroz blanco."
+  },
+  {
+    "titulo": "Hamburguesas Caseras",
+    "ingredientes": "Carne picada, huevo, pan rallado, ajo, perejil, sal, pimienta, pan de hamburguesa, lechuga, tomate",
+    "preparacion": "En un bol, mezcla la carne picada con un huevo, pan rallado, ajo picado, perejil, sal y pimienta. Forma hamburguesas con las manos. Cocínalas en una plancha o sartén con un poco de aceite durante 3-4 minutos por cada lado. Sirve en pan de hamburguesa con lechuga y rodajas de tomate."
+  },
+  {
+    "titulo": "Tarta de Queso al Horno",
+    "ingredientes": "Queso crema, huevos, azúcar, nata, galletas, mantequilla",
+    "preparacion": "Tritura las galletas y mézclalas con mantequilla derretida. Cubre el fondo de un molde con esta mezcla y presiona bien. Bate el queso crema con azúcar, nata y huevos hasta obtener una masa homogénea. Vierte sobre la base de galletas y hornea a 180°C durante 45 minutos. Deja enfriar antes de desmoldar."
+  }
+  {
+    "titulo": "Lasaña de carne",
+    "ingredientes": "500 g de carne picada, 1 cebolla, 2 dientes de ajo, 400 g de tomate triturado, 12 láminas de lasaña, 200 g de queso rallado, 500 ml de bechamel, sal, pimienta y aceite de oliva",
+    "preparacion": "Sofríe la cebolla y el ajo picados, añade la carne y cocina hasta dorar. Incorpora el tomate, sal y pimienta, y cocina 15 min. En una fuente, alterna capas de carne, láminas de lasaña y bechamel. Cubre con queso rallado y hornea a 180 °C durante 30 min."
+  },
+  {
+    "titulo": "Ensalada César",
+    "ingredientes": "1 lechuga romana, 100 g de crutones, 50 g de queso parmesano, 150 g de pechuga de pollo a la plancha, 3 cucharadas de mayonesa, 1 diente de ajo, 1 cucharadita de mostaza, jugo de 1/2 limón",
+    "preparacion": "Corta la lechuga y el pollo en tiras. Mezcla mayonesa, ajo triturado, mostaza y jugo de limón para la salsa. Coloca la lechuga en un bol, añade pollo, crutones, parmesano y mezcla con la salsa antes de servir."
+  },
+  {
+    "titulo": "Sopa de verduras",
+    "ingredientes": "1 zanahoria, 1 puerro, 1 calabacín, 1 patata, 1 litro de caldo de verduras, sal, pimienta y aceite de oliva",
+    "preparacion": "Pica todas las verduras en trozos. Sofríe ligeramente el puerro con aceite, añade el resto de verduras y el caldo. Cocina 20-25 min hasta que estén tiernas. Tritura para una crema o sirve con trozos enteros."
+  },
+  {
+    "titulo": "Tarta de manzana",
+    "ingredientes": "1 lámina de masa quebrada, 3 manzanas, 2 cucharadas de mermelada de albaricoque, 2 cucharadas de azúcar, 1 cucharadita de canela",
+    "preparacion": "Coloca la masa en un molde, pincha con un tenedor. Pela y corta las manzanas en láminas y colócalas encima. Espolvorea azúcar y canela. Hornea a 180 °C durante 30-35 min. Pinta con mermelada caliente al sacar."
+  },
+  {
+    "titulo": "Pollo al curry",
+    "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 200 ml de leche de coco, 2 cucharadas de curry en polvo, sal, pimienta y aceite de oliva",
+    "preparacion": "Corta el pollo en dados y sofríe en aceite. Retira y en la misma sartén sofríe cebolla picada. Añade curry, leche de coco y mezcla. Incorpora el pollo y cocina 10 min hasta que espese. Sirve con arroz."
+  }
+  {
+    "titulo": "Crema de calabaza",
+    "ingredientes": "500 g de calabaza, 1 cebolla, 1 zanahoria, 700 ml de caldo de verduras, 2 cucharadas de nata, sal, pimienta y aceite de oliva",
+    "preparacion": "Sofríe la cebolla y la zanahoria picadas, añade la calabaza en trozos y el caldo. Cocina 20 min hasta que la calabaza esté tierna. Tritura todo, añade nata, sal y pimienta, y cocina 2 min más."
+  },
+  {
+    "titulo": "Arroz con leche",
+    "ingredientes": "1 litro de leche, 200 g de arroz, 150 g de azúcar, 1 rama de canela, piel de 1 limón, canela en polvo",
+    "preparacion": "Hierve la leche con la rama de canela y la piel de limón. Añade el arroz y cocina a fuego lento 40 min removiendo. Incorpora el azúcar, cocina 5 min más y sirve espolvoreado con canela en polvo."
+  },
+  {
+    "titulo": "Albóndigas en salsa",
+    "ingredientes": "500 g de carne picada, 1 huevo, 2 cucharadas de pan rallado, 1 cebolla, 200 g de tomate triturado, 200 ml de caldo, sal, pimienta y aceite de oliva",
+    "preparacion": "Mezcla carne, huevo y pan rallado, forma albóndigas y fríelas. Sofríe cebolla, añade tomate y caldo, sal y pimienta. Incorpora las albóndigas y cocina 15 min a fuego medio."
+  },
+  {
+    "titulo": "Tortilla de espinacas",
+    "ingredientes": "4 huevos, 200 g de espinacas frescas, 1 diente de ajo, sal, pimienta y aceite de oliva",
+    "preparacion": "Saltea el ajo picado con las espinacas hasta que reduzcan. Bate los huevos con sal y pimienta, mezcla con las espinacas y cocina en sartén antiadherente por ambos lados hasta cuajar."
+  },
+  {
+    "titulo": "Bizcocho de yogur",
+    "ingredientes": "1 yogur natural, 3 huevos, 2 medidas de yogur de azúcar, 3 de harina, 1 de aceite, 1 sobre de levadura, ralladura de 1 limón",
+    "preparacion": "Mezcla todos los ingredientes en un bol hasta obtener una masa homogénea. Vierte en un molde engrasado y hornea a 180 °C durante 35-40 min."
+  }
+  {
+    "titulo": "Lentejas estofadas",
+    "ingredientes": "300 g de lentejas, 1 zanahoria, 1 cebolla, 1 pimiento verde, 1 tomate, 1 hoja de laurel, 700 ml de agua o caldo, sal y aceite de oliva",
+    "preparacion": "Sofríe cebolla, zanahoria y pimiento picados, añade el tomate rallado y rehoga. Incorpora lentejas, laurel y caldo. Cocina a fuego lento 40 min o hasta que estén tiernas."
+  },
+  {
+    "titulo": "Ensalada de garbanzos",
+    "ingredientes": "300 g de garbanzos cocidos, 1 tomate, 1 pepino, 1/2 cebolla morada, perejil, aceite de oliva, vinagre y sal",
+    "preparacion": "Mezcla los garbanzos con tomate, pepino y cebolla picados. Añade perejil, aliña con aceite, vinagre y sal, y sirve fría."
+  },
+  {
+    "titulo": "Merluza a la gallega",
+    "ingredientes": "4 lomos de merluza, 4 patatas, 1 cebolla, 1 cucharadita de pimentón, 2 dientes de ajo, aceite de oliva, sal",
+    "preparacion": "Cuece patatas en rodajas con la cebolla. Añade la merluza y cocina 8 min. Sofríe ajos laminados, añade pimentón y aceite caliente, y vierte sobre la merluza antes de servir."
+  },
+  {
+    "titulo": "Croquetas de jamón",
+    "ingredientes": "100 g de jamón serrano picado, 50 g de mantequilla, 50 g de harina, 500 ml de leche, sal, nuez moscada, huevo y pan rallado",
+    "preparacion": "Haz una bechamel con mantequilla, harina y leche. Añade jamón picado, sal y nuez moscada, cocina hasta espesar. Deja enfriar, forma croquetas, pásalas por huevo y pan rallado y fríe en aceite caliente."
+  },
+  {
+    "titulo": "Tarta de queso al horno",
+    "ingredientes": "500 g de queso crema, 200 ml de nata, 3 huevos, 150 g de azúcar, 1 cucharada de harina, mermelada al gusto",
+    "preparacion": "Bate queso, nata, huevos, azúcar y harina. Vierte en un molde y hornea a 180 °C durante 45-50 min. Deja enfriar y cubre con mermelada."
+  }
+  {
+    "titulo": "Albóndigas en salsa",
+    "ingredientes": "500 g de carne picada mixta, 1 huevo, 2 dientes de ajo, perejil, pan rallado, sal, pimienta, harina, 1 cebolla, 200 ml de tomate triturado, caldo de carne",
+    "preparacion": "Mezcla la carne con huevo, ajo picado, perejil, sal, pimienta y pan rallado. Forma albóndigas, pásalas por harina y fríelas. Sofríe cebolla, añade el tomate, rehoga y vierte caldo. Incorpora las albóndigas y cocina 20 min."
+  },
+  {
+    "titulo": "Tortilla de calabacín",
+    "ingredientes": "2 calabacines medianos, 1 cebolla, 4 huevos, sal, aceite de oliva",
+    "preparacion": "Corta calabacines y cebolla en dados. Sofríelos a fuego medio hasta que estén tiernos. Bate los huevos, mezcla con las verduras, ajusta de sal y cuaja la tortilla en una sartén."
+  },
+  {
+    "titulo": "Gazpacho andaluz",
+    "ingredientes": "1 kg de tomates maduros, 1 pepino, 1 pimiento verde, 1 diente de ajo, 50 g de pan, 50 ml de aceite de oliva, vinagre, sal, agua fría",
+    "preparacion": "Tritura todos los ingredientes, ajusta la textura con agua, aliña con sal, vinagre y aceite. Cuela y enfría bien antes de servir."
+  },
+  {
+    "titulo": "Paella de verduras",
+    "ingredientes": "300 g de arroz, 1 pimiento rojo, 1 calabacín, 100 g de judías verdes, 1 tomate, 1 litro de caldo vegetal, azafrán, sal, aceite de oliva",
+    "preparacion": "Sofríe las verduras picadas, añade arroz, rehoga con azafrán y sal. Vierte el caldo caliente y cocina a fuego medio hasta que el arroz esté tierno y el líquido absorbido."
+  },
+  {
+    "titulo": "Macedonia de frutas",
+    "ingredientes": "2 manzanas, 2 naranjas, 1 plátano, 1 kiwi, 1 melocotón, zumo de naranja natural, azúcar (opcional), hojas de menta",
+    "preparacion": "Corta todas las frutas en dados, mezcla en un bol, añade el zumo de naranja y azúcar si deseas. Deja enfriar en la nevera y decora con menta al servir."
+  }
+  {
+    "titulo": "Pollo al ajillo",
+    "ingredientes": "1 kg de pollo troceado, 6 dientes de ajo, 100 ml de vino blanco, aceite de oliva, sal, perejil",
+    "preparacion": "Dora los trozos de pollo con ajos enteros en aceite. Añade vino, sal y cocina a fuego medio hasta que el pollo esté hecho y la salsa reduzca. Espolvorea perejil."
+  },
+  {
+    "titulo": "Espaguetis a la carbonara",
+    "ingredientes": "300 g de espaguetis, 150 g de panceta, 2 yemas de huevo, 50 g de queso parmesano, sal, pimienta",
+    "preparacion": "Cuece los espaguetis. Saltea panceta en su grasa. Mezcla yemas con parmesano. Añade la pasta caliente, la panceta y mezcla rápido fuera del fuego para que se forme una crema."
+  },
+  {
+    "titulo": "Tortilla de espinacas",
+    "ingredientes": "200 g de espinacas frescas, 4 huevos, 1 diente de ajo, aceite de oliva, sal",
+    "preparacion": "Saltea las espinacas con ajo picado. Bate los huevos, añade espinacas, sazona y cuaja la tortilla en sartén caliente por ambos lados."
+  },
+  {
+    "titulo": "Pisto manchego",
+    "ingredientes": "1 calabacín, 1 berenjena, 1 pimiento rojo, 1 pimiento verde, 1 cebolla, 2 tomates, aceite, sal",
+    "preparacion": "Corta todas las verduras en dados y sofríe cada una por separado. Mézclalas con el tomate pelado y picado y cocina a fuego lento 30 min."
+  },
+  {
+    "titulo": "Flan casero",
+    "ingredientes": "500 ml de leche, 4 huevos, 120 g de azúcar, 100 g de azúcar para caramelo",
+    "preparacion": "Haz caramelo con azúcar y un poco de agua y vierte en un molde. Bate leche, huevos y azúcar, vierte sobre el caramelo y hornea al baño maría 45 min a 180 °C."
+  }
+  {
+    "titulo": "Croquetas de jamón",
+    "ingredientes": "100 g de jamón serrano, 50 g de mantequilla, 3 cucharadas de harina, 500 ml de leche, nuez moscada, sal, pan rallado, 2 huevos, aceite para freír",
+    "preparacion": "Haz una bechamel con mantequilla, harina y leche. Añade el jamón picado, sal y nuez moscada. Enfría la masa, forma croquetas, pásalas por huevo y pan rallado y fríe hasta dorar."
+  },
+  {
+    "titulo": "Salmorejo cordobés",
+    "ingredientes": "1 kg de tomates maduros, 200 g de pan, 1 diente de ajo, 100 ml de aceite de oliva, sal, huevo duro y jamón picado para decorar",
+    "preparacion": "Tritura tomates, pan, ajo y sal hasta obtener una crema. Emulsiona con el aceite poco a poco. Sirve frío con huevo duro y jamón encima."
+  },
+  {
+    "titulo": "Ensalada de garbanzos",
+    "ingredientes": "400 g de garbanzos cocidos, 1 pimiento rojo, 1 cebolla morada, 1 pepino, aceitunas, aceite de oliva, vinagre, sal, perejil",
+    "preparacion": "Mezcla los garbanzos con las verduras picadas. Aliña con aceite, vinagre, sal y espolvorea perejil picado. Deja enfriar antes de servir."
+  },
+  {
+    "titulo": "Revuelto de setas",
+    "ingredientes": "200 g de setas variadas, 3 huevos, 2 dientes de ajo, sal, pimienta, aceite de oliva",
+    "preparacion": "Sofríe los ajos laminados, añade las setas troceadas y cocina hasta que suelten el agua. Agrega los huevos batidos, sal y pimienta, removiendo hasta cuajar al gusto."
+  },
+  {
+    "titulo": "Pollo al curry",
+    "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 200 ml de leche de coco, 1 cucharada de curry en polvo, aceite de oliva, sal, pimienta",
+    "preparacion": "Sofríe la cebolla picada, añade el pollo en dados, sal y pimienta. Espolvorea el curry, mezcla y vierte la leche de coco. Cocina a fuego medio 15 min hasta espesar."
+  }
+  {
+    "titulo": "Tortilla de Patatas",
+    "ingredientes": "4 patatas medianas, 6 huevos, 1 cebolla, aceite de oliva, sal",
+    "preparacion": "Pela y corta las patatas y la cebolla en rodajas finas. Fríelas en abundante aceite hasta que estén tiernas. Bate los huevos con sal, mezcla con las patatas y cebolla escurridas. Cocina la mezcla en una sartén hasta que cuaje por ambos lados."
+  },
+  {
+    "titulo": "Espaguetis Carbonara",
+    "ingredientes": "400 g de espaguetis, 150 g de panceta, 3 huevos, 50 g de queso parmesano rallado, pimienta negra, sal",
+    "preparacion": "Cuece la pasta al dente. Fríe la panceta hasta dorar. Bate los huevos con parmesano y pimienta. Mezcla la pasta caliente con la panceta y añade la mezcla de huevo fuera del fuego para que no se cocine demasiado."
+  },
+  {
+    "titulo": "Pollo al Curry",
+    "ingredientes": "500 g de pechuga de pollo, 1 cebolla, 2 dientes de ajo, 200 ml de leche de coco, 2 cucharadas de curry en polvo, aceite, sal",
+    "preparacion": "Sofríe cebolla y ajo picados. Añade el pollo en trozos y cocina hasta dorar. Incorpora el curry, la leche de coco y cocina a fuego medio 15 minutos. Salpimienta al gusto."
+  },
+  {
+    "titulo": "Guacamole",
+    "ingredientes": "2 aguacates maduros, 1 tomate pequeño, 1/2 cebolla, jugo de 1 lima, cilantro fresco, sal",
+    "preparacion": "Machaca los aguacates. Pica finamente tomate, cebolla y cilantro. Mézclalo todo con el jugo de lima y sal. Sirve fresco."
+  },
+  {
+    "titulo": "Panqueques",
+    "ingredientes": "1 taza de harina, 1 taza de leche, 1 huevo, 2 cucharadas de azúcar, 1 pizca de sal, mantequilla para la sartén",
+    "preparacion": "Mezcla harina, leche, huevo, azúcar y sal hasta obtener una masa homogénea. Cocina en sartén con mantequilla por ambos lados hasta dorar."
+  },
+  {
+    "titulo": "Ensalada Caprese",
+    "ingredientes": "Tomates maduros, queso mozzarella, hojas de albahaca, aceite de oliva, sal, pimienta",
+    "preparacion": "Corta tomates y mozzarella en rodajas. Alterna capas en un plato. Añade hojas de albahaca, aceite, sal y pimienta al gusto."
+  },
+  {
+    "titulo": "Sándwich Club",
+    "ingredientes": "3 rebanadas de pan de molde, pechuga de pavo, lechuga, tomate, bacon, mayonesa",
+    "preparacion": "Tuesta el pan. Coloca en la primera capa pechuga, lechuga y tomate. Añade mayonesa y bacon en la siguiente capa. Une con la tercera rebanada."
+  },
+  {
+    "titulo": "Frittata de Verduras",
+    "ingredientes": "6 huevos, 1 calabacín, 1 pimiento rojo, 1 cebolla, aceite, sal, pimienta",
+    "preparacion": "Sofríe las verduras picadas hasta tiernas. Bate los huevos con sal y pimienta, añade las verduras. Cocina a fuego medio en sartén tapada hasta cuajar."
+  },
+  {
+    "titulo": "Brownie de Chocolate",
+    "ingredientes": "200 g de chocolate negro, 150 g de mantequilla, 150 g de azúcar, 3 huevos, 100 g de harina",
+    "preparacion": "Derrite chocolate con mantequilla. Mezcla con azúcar y huevos. Añade harina y mezcla. Hornea 25 minutos a 180°C."
+  },
+  {
+    "titulo": "Gazpacho de Sandía",
+    "ingredientes": "500 g de sandía, 2 tomates, 1 pepino, 1 pimiento verde, 1 diente de ajo, aceite de oliva, vinagre, sal",
+    "preparacion": "Tritura todos los ingredientes hasta obtener una crema suave. Enfría en la nevera y sirve frío."
+  }
 ]
