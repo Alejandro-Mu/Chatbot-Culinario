@@ -85,11 +85,6 @@
     "preparacion": "Sofríe cebolla, zanahoria y pimiento picados, añade el tomate rallado y rehoga. Incorpora lentejas, laurel y caldo. Cocina a fuego lento 40 min o hasta que estén tiernas."
   },
   {
-    "titulo": "Ensalada de garbanzos",
-    "ingredientes": "300 g de garbanzos cocidos, 1 tomate, 1 pepino, 1/2 cebolla morada, perejil, aceite de oliva, vinagre y sal",
-    "preparacion": "Mezcla los garbanzos con tomate, pepino y cebolla picados. Añade perejil, aliña con aceite, vinagre y sal, y sirve fría."
-  },
-  {
     "titulo": "Merluza a la gallega",
     "ingredientes": "4 lomos de merluza, 4 patatas, 1 cebolla, 1 cucharadita de pimentón, 2 dientes de ajo, aceite de oliva, sal",
     "preparacion": "Cuece patatas en rodajas con la cebolla. Añade la merluza y cocina 8 min. Sofríe ajos laminados, añade pimentón y aceite caliente, y vierte sobre la merluza antes de servir."
@@ -103,11 +98,6 @@
     "titulo": "Tortilla de calabacín",
     "ingredientes": "2 calabacines medianos, 1 cebolla, 4 huevos, sal, aceite de oliva",
     "preparacion": "Corta calabacines y cebolla en dados. Sofríelos a fuego medio hasta que estén tiernos. Bate los huevos, mezcla con las verduras, ajusta de sal y cuaja la tortilla en una sartén."
-  },
-  {
-    "titulo": "Gazpacho andaluz",
-    "ingredientes": "1 kg de tomates maduros, 1 pepino, 1 pimiento verde, 1 diente de ajo, 50 g de pan, 50 ml de aceite de oliva, vinagre, sal, agua fría",
-    "preparacion": "Tritura todos los ingredientes, ajusta la textura con agua, aliña con sal, vinagre y aceite. Cuela y enfría bien antes de servir."
   },
   {
     "titulo": "Paella de verduras",
@@ -160,11 +150,6 @@
     "preparacion": "Mezcla harina, leche, huevo, azúcar y sal hasta obtener una masa homogénea. Cocina en sartén con mantequilla por ambos lados hasta dorar."
   },
   {
-    "titulo": "Ensalada Caprese",
-    "ingredientes": "Tomates maduros, queso mozzarella, hojas de albahaca, aceite de oliva, sal, pimienta",
-    "preparacion": "Corta tomates y mozzarella en rodajas. Alterna capas en un plato. Añade hojas de albahaca, aceite, sal y pimienta al gusto."
-  },
-  {
     "titulo": "Sándwich Club",
     "ingredientes": "3 rebanadas de pan de molde, pechuga de pavo, lechuga, tomate, bacon, mayonesa",
     "preparacion": "Tuesta el pan. Coloca en la primera capa pechuga, lechuga y tomate. Añade mayonesa y bacon en la siguiente capa. Une con la tercera rebanada."
@@ -183,5 +168,60 @@
     "titulo": "Gazpacho de Sandía",
     "ingredientes": "500 g de sandía, 2 tomates, 1 pepino, 1 pimiento verde, 1 diente de ajo, aceite de oliva, vinagre, sal",
     "preparacion": "Tritura todos los ingredientes hasta obtener una crema suave. Enfría en la nevera y sirve frío."
+  },
+  {
+    "titulo": "Macarrones boloñesa",
+    "ingredientes": "Macarrones, carne picada de ternera, tomate triturado, cebolla, ajo, aceite de oliva, sal, pimienta, queso rallado",
+    "preparacion": "Cuece los macarrones según las indicaciones del paquete. Sofríe la cebolla y el ajo picados en aceite, añade la carne y cocina hasta dorar. Incorpora el tomate triturado, salpimienta y deja cocinar 15 minutos. Mezcla la salsa con los macarrones y espolvorea queso rallado antes de servir."
+  },
+  {
+    "titulo": "Ternera en salsa",
+    "ingredientes": "Carne de ternera, cebolla, ajo, tomate, vino tinto, aceite de oliva, sal, pimienta, laurel",
+    "preparacion": "Dora la carne en aceite. Añade cebolla y ajo picados y sofríe. Agrega tomate triturado y vino tinto, junto con laurel, sal y pimienta. Cocina a fuego lento hasta que la carne esté tierna y la salsa espese."
+  },
+  {
+    "titulo": "Arroz a la cubana",
+    "ingredientes": "Arroz blanco, plátanos maduros, huevos, tomate frito, aceite, sal",
+    "preparacion": "Cocina el arroz blanco. Fríe los plátanos cortados en rodajas y los huevos. Sirve el arroz con tomate frito, los plátanos fritos y los huevos encima."
+  },
+  {
+    "titulo": "Canelones",
+    "ingredientes": "Placas de pasta para canelones, carne picada, bechamel, tomate frito, queso rallado, cebolla, ajo, aceite, sal, pimienta",
+    "preparacion": "Cocina la carne con cebolla y ajo. Rellena las placas de pasta con la carne, enrolla y coloca en una fuente. Cubre con bechamel y tomate frito, espolvorea queso y hornea hasta gratinar."
+  },
+  {
+    "titulo": "Patatas al horno",
+    "ingredientes": "Patatas, aceite de oliva, romero, ajo, sal, pimienta",
+    "preparacion": "Corta las patatas en trozos, mezcla con aceite, ajo picado, romero, sal y pimienta. Hornea a 200°C hasta que estén doradas y tiernas."
+  },
+  {
+    "titulo": "Bizcocho de chocolate",
+    "ingredientes": "Harina, azúcar, huevos, cacao en polvo, leche, aceite, polvo de hornear, sal",
+    "preparacion": "Mezcla los ingredientes secos por un lado y los húmedos por otro. Combina ambos y vierte en un molde engrasado. Hornea a 180°C durante 30-35 minutos. Deja enfriar antes de desmoldar."
+  },
+  {
+    "titulo": "Magdalenas",
+    "ingredientes": "Harina, azúcar, huevos, leche, aceite de girasol, levadura química, ralladura de limón, sal",
+    "preparacion": "Bate los huevos con azúcar, añade la leche, el aceite y la ralladura. Incorpora la harina tamizada con la levadura y la sal. Llena los moldes y hornea a 180°C por 20 minutos."
+  },
+  {
+    "titulo": "Garbanzos",
+    "ingredientes": "Garbanzos, cebolla, ajo, tomate, pimiento verde, aceite de oliva, sal, pimentón, agua",
+    "preparacion": "Sofríe cebolla, ajo y pimiento. Añade tomate triturado y pimentón. Incorpora los garbanzos y agua, cocina hasta que estén tiernos y la salsa haya espesado."
+  },
+  {
+    "titulo": "Judías verdes",
+    "ingredientes": "Judías verdes, ajo, cebolla, tomate, aceite de oliva, sal",
+    "preparacion": "Corta y cocina las judías verdes al vapor o hervidas. Sofríe ajo y cebolla, añade tomate picado y cocina unos minutos. Mezcla con las judías y cocina junto unos minutos más."
+  },
+  {
+    "titulo": "Puré de patatas",
+    "ingredientes": "Patatas, leche, mantequilla, sal, pimienta",
+    "preparacion": "Hierve las patatas peladas hasta que estén tiernas. Escúrrelas y aplástalas. Añade mantequilla y leche caliente poco a poco hasta obtener la textura deseada. Salpimienta al gusto."
+  },
+  {
+    "titulo": "Guisantes",
+    "ingredientes": "Guisantes, cebolla, ajo, jamón, aceite de oliva, sal",
+    "preparacion": "Sofríe cebolla y ajo picados, añade jamón en trozos pequeños. Incorpora los guisantes y cocina hasta que estén tiernos. Sal al gusto."
   }
 ]
